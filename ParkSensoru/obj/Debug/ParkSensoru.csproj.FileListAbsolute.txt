@@ -1,0 +1,14 @@
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\bin\Debug\ParkSensoru.exe.config
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\bin\Debug\ParkSensoru.exe
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\bin\Debug\ParkSensoru.pdb
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\obj\Debug\ParkSensoru.csprojResolveAssemblyReference.cache
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\obj\Debug\ParkSensoru.Form1.resources
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\obj\Debug\ParkSensoru.Properties.Resources.resources
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\obj\Debug\ParkSensoru.csproj.GenerateResource.Cache
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\obj\Debug\ParkSensoru.exe
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\obj\Debug\ParkSensoru.pdb
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\obj\Debug\ParkSensoru.connectionForm.resources
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\bin\Debug\ParkSensoru.exe.manifest
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\bin\Debug\ParkSensoru.application
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\obj\Debug\ParkSensoru.exe.manifest
+C:\Users\tuncaymsi\Desktop\ParkSensoru\ParkSensoru\obj\Debug\ParkSensoru.application
