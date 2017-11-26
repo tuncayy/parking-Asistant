@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ParkSensoru.exe" size="144384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ParkSensoru.exe" size="117752">
       <assemblyIdentity name="ParkSensoru" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1LkCFWHeFQqZAiVp1dA9iwMySiENwvm4+Dt3RVMfKv4=</dsig:DigestValue>
+        <dsig:DigestValue>9M4cpFUrL1RnRxFUAxalgjdP12uC/Upih6Cp1kFCA5g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

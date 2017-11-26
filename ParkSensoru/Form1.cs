@@ -57,6 +57,7 @@ namespace ParkSensoru
         }
         private void getserialnames()
         {
+            portlist.Items.Clear();
             foreach (string sp in SerialPort.GetPortNames())
             {
                 portlist.Items.Add(sp);
@@ -78,13 +79,13 @@ namespace ParkSensoru
         string[] token = new string[2];
         private void event_action(object sender, EventArgs e)
         {
-         /*   token = in_data.Split('/');
+            token = in_data.Split('/');
             foreach (string tokens in token)
             {
                 if (i == 0)
                 {
                     value = Convert.ToInt32(token[0]);
-                    label5.Text = value.ToString();
+                    label4.Text = value.ToString();
                     on.Width = (280 * (100-value)) / 100;
                     on.Height = 221;
                 }
@@ -93,7 +94,7 @@ namespace ParkSensoru
                 {
                     
                     value = Convert.ToInt32(token[1]);
-                    label4.Text = value.ToString();
+                    label5.Text = value.ToString();
                     pictureBox4.Width = ((250 * (100-value)) /100);
                     pictureBox4.Location = new Point(900 - ((250 * (100-value)) / 100), 300);
 
@@ -114,7 +115,7 @@ namespace ParkSensoru
               
                 i++;
             }
-            i = 0;*/
+            i = 0;
         }
         public static Bitmap RotateImage(Image image, PointF offset, float angle)
         {
