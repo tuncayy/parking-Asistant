@@ -88,7 +88,13 @@ namespace ParkSensoru
                     label4.Text = value.ToString();
                     on.Width = (280 * (100-value)) / 100;
                     on.Height = 221;
-                }
+                    if (value < 20) timer3.Start();
+                    else {
+                        timer3.Stop();
+                        if (on.Visible == true) on.Visible = false;
+                        if (on.Visible == false) on.Visible = true;
+                    }
+                    }
 
                 if (i == 1)
                 {
@@ -102,14 +108,22 @@ namespace ParkSensoru
                     {
                         changeImage(value);
                         pictureBox4.Image = Image.FromFile(@"Images\yesilarka.png");
+                        timer1.Stop();
+                        if (pictureBox4.Visible == true) pictureBox4.Visible = false;
+                        if (pictureBox4.Visible == false) pictureBox4.Visible = true;
                     }
                     if (value >= 34 && value <= 67)
                     {
                         pictureBox4.Image = Image.FromFile(@"Images\turuncuarka.png");
+                        timer1.Stop();
+                        if (pictureBox4.Visible == true) pictureBox4.Visible = false;
+                        if (pictureBox4.Visible == false) pictureBox4.Visible = true;
                     }
                     if (value > 0 && value <= 33)
                     {
                         pictureBox4.Image = Image.FromFile(@"Images\kırmızıarka.png");
+                        if(value < 20) timer1.Start();
+                        
                     }
                 }
               
@@ -179,11 +193,10 @@ namespace ParkSensoru
         int counter = 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
-         /*   if (counter % 2 == 0) kirmiziLeft.Visible = false;
-            if (counter % 2 == 1) kirmiziLeft.Visible = true;
-            counter++;*/
-          //  if (kirmiziLeft.Visible == true) kirmiziLeft.Visible = false;
-          //  if(kirmiziLeft.Visible == false) kirmiziLeft.Visible = true;
+            if (counter % 2 == 0) pictureBox4.Visible = false;
+            if (counter % 2 == 1) pictureBox4.Visible = true;
+            counter++;
+            
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -193,8 +206,8 @@ namespace ParkSensoru
         int counter2 = 0;
         private void timer3_Tick(object sender, EventArgs e)
         {
-           /* if (counter2 % 2 == 0) kirmizir.Visible = false;
-            if (counter2 % 2 == 1) kirmizir.Visible = true;*/
+            if (counter2 % 2 == 0) on.Visible = false;
+            if (counter2 % 2 == 1) on.Visible = true;
             counter2++;
         }
 

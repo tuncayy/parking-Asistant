@@ -57,9 +57,21 @@ uzaklik2toplam += uzaklik2;
   
 
  servoacisi = (uzaklik1toplam/20)*1.8;
- Serial.println("servo= " + servoacisi);
+ if(uzaklik1toplam/20 >= 0 && uzaklik1toplam/20 <= 20)
+ {
+//  Serial.print("servo= ");
+ // Serial.println(servoacisi);
   servo.write(servoacisi);
-    
+  delay(20);  
+  }
+  if(uzaklik1toplam/20 >= 21 && uzaklik1toplam/20 <= 100)
+ {
+ // Serial.print("servo= ");
+ // Serial.println(servoacisi);
+  servo.write(servoacisi);
+  delay(20);  
+  }
+  
  // Serial.print("2. sensor Uzaklik ");  
  Serial.print(uzaklik1toplam/20);
  Serial.print("/");
